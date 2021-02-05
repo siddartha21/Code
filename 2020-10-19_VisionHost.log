@@ -1,0 +1,96 @@
+01:21:03.6527 Info Starting Vision Host. Args: C:\Program Files (x86)\UiPath\Studio\ ,df7b437c-15c9-42e8-b645-34ea4aed5bbb
+01:21:03.7987 Info Starting scrape. Image size: 37422.
+01:21:03.8167 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:03.8989 Info Input language:eng, translated language:eng
+01:21:03.8989 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:07.0779 Info Starting scrape. Image size: 36854.
+01:21:07.0779 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:07.0809 Info Input language:eng, translated language:eng
+01:21:07.0809 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:26.0156 Info Starting scrape. Image size: 73798.
+01:21:26.0156 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:26.0156 Info Input language:eng, translated language:eng
+01:21:26.0176 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:26.8496 Info Starting scrape. Image size: 73798.
+01:21:26.8496 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:26.8496 Info Input language:eng, translated language:eng
+01:21:26.8496 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:27.6987 Info Starting scrape. Image size: 87414.
+01:21:27.6987 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:27.6987 Info Input language:eng, translated language:eng
+01:21:27.6987 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:28.4807 Info Starting scrape. Image size: 83854.
+01:21:28.4807 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:28.4807 Info Input language:eng, translated language:eng
+01:21:28.4807 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:29.3878 Info Starting scrape. Image size: 87102.
+01:21:29.3878 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:29.3878 Info Input language:eng, translated language:eng
+01:21:29.3878 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:30.2238 Info Starting scrape. Image size: 88454.
+01:21:30.2238 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:30.2238 Info Input language:eng, translated language:eng
+01:21:30.2238 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:31.0028 Info Starting scrape. Image size: 77978.
+01:21:31.0028 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:31.0028 Info Input language:eng, translated language:eng
+01:21:31.0028 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:31.7438 Info Starting scrape. Image size: 83754.
+01:21:31.7438 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:31.7438 Info Input language:eng, translated language:eng
+01:21:31.7438 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:32.4319 Info Starting scrape. Image size: 77150.
+01:21:32.4319 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:32.4319 Info Input language:eng, translated language:eng
+01:21:32.4319 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:33.1129 Info Starting scrape. Image size: 84154.
+01:21:33.1129 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:33.1129 Info Input language:eng, translated language:eng
+01:21:33.1129 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:21:36.7780 Info Starting scrape. Image size: 76966.
+01:21:36.7780 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:21:36.7780 Info Input language:eng, translated language:eng
+01:21:36.7780 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+01:50:49.5748 Info Starting Vision Host. Args: C:\Program Files (x86)\UiPath\Studio\ ,d8148ce5-035e-4ef9-900c-7d2d646fa7a5
+01:50:49.7116 Info Starting scrape. Image size: 33154.
+01:50:49.7256 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":25.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+01:50:49.7523 Info Input language:eng, translated language:eng
+01:50:49.7546 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+02:20:34.0885 Info Starting Vision Host. Args: C:\Program Files (x86)\UiPath\Studio\ ,70f57a66-38f0-4eb3-b058-68a9496c8b1c
+02:20:34.2095 Info Starting scrape. Image size: 16054.
+02:20:34.2236 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+02:20:34.2485 Info Input language:eng, translated language:eng
+02:20:34.2485 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:07:50.2275 Info Starting Vision Host. Args: C:\Program Files (x86)\UiPath\Studio\ ,ab5a88e1-ad72-42e1-95ce-5f3d42d73020
+04:07:53.3396 Info Starting scrape. Image size: 49334.
+04:07:53.3586 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:07:53.3826 Info Input language:eng, translated language:eng
+04:07:53.3826 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:07:54.3257 Info Starting scrape. Image size: 91558.
+04:07:54.3257 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:07:54.3257 Info Input language:eng, translated language:eng
+04:07:54.3437 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:07:55.4857 Info Starting scrape. Image size: 49334.
+04:07:55.4857 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:07:55.4857 Info Input language:eng, translated language:eng
+04:07:55.4857 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:07:56.1687 Info Starting scrape. Image size: 91558.
+04:07:56.1687 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:07:56.1687 Info Input language:eng, translated language:eng
+04:07:56.1687 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:07:59.9279 Info Starting scrape. Image size: 49334.
+04:07:59.9279 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:07:59.9279 Info Input language:eng, translated language:eng
+04:07:59.9279 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:08:00.6419 Info Starting scrape. Image size: 91558.
+04:08:00.6419 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:08:00.6419 Info Input language:eng, translated language:eng
+04:08:00.6542 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:08:15.9025 Info Starting scrape. Image size: 16054.
+04:08:15.9035 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:08:15.9035 Info Input language:eng, translated language:eng
+04:08:15.9035 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng
+04:08:16.8316 Info Starting scrape. Image size: 10554.
+04:08:16.8316 Info Scrape options: {"ExtractWords":false,"Timeout":null,"ComputeSkewAngle":false,"Profile":1,"Language":"eng","Scale":2.0,"FilterRegion":null,"Engine":0,"EngineImplClass":null,"EngineOptions":"{\"AllowedCharacters\":\"\",\"DeniedCharacters\":\"\",\"Invert\":false}"}
+04:08:16.8316 Info Input language:eng, translated language:eng
+04:08:16.8316 Info Getting tesseract language for C:\USERS\SVC_BOT205\.NUGET\PACKAGES\UIPATH.VISION\1.8.1\BUILD\tessdata and language eng

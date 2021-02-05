@@ -1,0 +1,1017 @@
+﻿00:25:30.2540 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+00:25:30.2559 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:25:30.2559 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+00:25:30.2559 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling update online operation.
+00:25:30.2559 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving LicenseInfo.
+00:25:30.2559 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:25:30.2709 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved LicenseInfo value RegistrationState: NoLicenseAvailable, ActivationId: , LicenseCode: [empty], LicenseModel: , Version: , StartDate: 0, EndDate: 0, GracePeriod: 0, Email: , CheckInterval: 0, NextCheckDate: 0, BundleCode: , SubscriptionCode: .
+00:25:30.2709 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+00:25:30.2709 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:25:30.2709 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+00:25:40.4884 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:25:40.4884 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling online update license request with current state :NoLicenseAvailable
+00:25:40.4884 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:25:40.4884 => [WARN] [UiPath.Studio.exe] [1] Warn: No license available skipping online update license request
+00:25:40.4904 => [ERROR] [UiPath.Studio.exe] [1] Error: No license exist for this installation Exception: UiPath.Licensing.Library.Extended.Exceptions.NotLicensedException: No license exist for this installation
+   at UiPath.Licensing.Library.Extended.Implementation.OnlineLoader.<UpdateAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.Library.Extended.Implementation.LicenseProvider.<UiPath-Licensing-Library-Extended-ILicenseProvider-UpdateOnlineLicenseAsync>d__11.MoveNext()
+00:25:40.4904 => [ERROR] [UiPath.Studio.exe] [1] Error: Error while updating license Exception: UiPath.Licensing.Library.Extended.Exceptions.NotLicensedException: No license exist for this installation
+   at UiPath.Licensing.Library.Extended.Implementation.OnlineLoader.<UpdateAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.Library.Extended.Implementation.LicenseProvider.<UiPath-Licensing-Library-Extended-ILicenseProvider-UpdateOnlineLicenseAsync>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.LicenseService.<UpdateOnlineLicenseAsync>d__24.MoveNext()
+00:25:45.6386 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:25:45.6586 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: Microsoft.VisualBasic: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:25:46.1848 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: UiPath.Vision, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:25:46.2347 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: UiPath.Vision, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:25:48.1067 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:25:48.1577 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: UiPath.NeuralNet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:25:48.2478 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:25:48.2478 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: UiPath.NeuralNet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:26:02.3073 => [ERROR] [UiPath.Studio.exe] [13] System.NullReferenceException: Object reference not set to an instance of an object.
+   at UiPath.Studio.Orchestrator.Folders.Services.RefreshFoldersJobExecutor.ParseValueFieldInJson[T](String jsonData)
+   at UiPath.Studio.Orchestrator.Folders.Services.RefreshFoldersJobExecutor.<GetResources>d__13`1.MoveNext(), HResult -2147467261
+00:27:12.0684 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+00:27:12.0684 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling update online operation.
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving LicenseInfo.
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved LicenseInfo value RegistrationState: NoLicenseAvailable, ActivationId: , LicenseCode: [empty], LicenseModel: , Version: , StartDate: 0, EndDate: 0, GracePeriod: 0, Email: , CheckInterval: 0, NextCheckDate: 0, BundleCode: , SubscriptionCode: .
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:27:12.0733 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+00:27:22.0557 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:27:22.0557 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling online update license request with current state :NoLicenseAvailable
+00:27:22.0557 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+00:27:22.0557 => [WARN] [UiPath.Studio.exe] [1] Warn: No license available skipping online update license request
+00:27:22.0577 => [ERROR] [UiPath.Studio.exe] [1] Error: No license exist for this installation Exception: UiPath.Licensing.Library.Extended.Exceptions.NotLicensedException: No license exist for this installation
+   at UiPath.Licensing.Library.Extended.Implementation.OnlineLoader.<UpdateAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.Library.Extended.Implementation.LicenseProvider.<UiPath-Licensing-Library-Extended-ILicenseProvider-UpdateOnlineLicenseAsync>d__11.MoveNext()
+00:27:22.0577 => [ERROR] [UiPath.Studio.exe] [1] Error: Error while updating license Exception: UiPath.Licensing.Library.Extended.Exceptions.NotLicensedException: No license exist for this installation
+   at UiPath.Licensing.Library.Extended.Implementation.OnlineLoader.<UpdateAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.Library.Extended.Implementation.LicenseProvider.<UiPath-Licensing-Library-Extended-ILicenseProvider-UpdateOnlineLicenseAsync>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.LicenseService.<UpdateOnlineLicenseAsync>d__24.MoveNext()
+00:27:25.0608 => [ERROR] [UiPath.Studio.exe] [9] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:27:25.1058 => [ERROR] [UiPath.Studio.exe] [9] $LoadAssembly: Microsoft.VisualBasic: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:27:25.6049 => [ERROR] [UiPath.Studio.exe] [9] $LoadAssembly: UiPath.Vision, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:27:25.6049 => [ERROR] [UiPath.Studio.exe] [9] $LoadAssembly: UiPath.Vision, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:27:27.9089 => [ERROR] [UiPath.Studio.exe] [24] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:27:27.9359 => [ERROR] [UiPath.Studio.exe] [24] $LoadAssembly: UiPath.NeuralNet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:27:28.0479 => [ERROR] [UiPath.Studio.exe] [24] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:27:28.0619 => [ERROR] [UiPath.Studio.exe] [24] $LoadAssembly: UiPath.NeuralNet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:27:43.8396 => [ERROR] [UiPath.Studio.exe] [13] System.NullReferenceException: Object reference not set to an instance of an object.
+   at UiPath.Studio.Orchestrator.Folders.Services.RefreshFoldersJobExecutor.ParseValueFieldInJson[T](String jsonData)
+   at UiPath.Studio.Orchestrator.Folders.Services.RefreshFoldersJobExecutor.<GetResources>d__13`1.MoveNext(), HResult -2147467261
+00:29:41.2840 => [ERROR] [UiPath.Studio.exe] [23] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:29:41.6770 => [ERROR] [UiPath.Studio.exe] [23] $LoadAssembly: UiPath.Vision, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:29:41.6881 => [ERROR] [UiPath.Studio.exe] [23] $LoadAssembly: UiPath.Vision, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:29:43.4521 => [ERROR] [UiPath.Studio.exe] [31] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:29:43.4931 => [ERROR] [UiPath.Studio.exe] [31] $LoadAssembly: UiPath.NeuralNet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:29:43.5221 => [ERROR] [UiPath.Studio.exe] [31] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:29:43.5221 => [ERROR] [UiPath.Studio.exe] [31] $LoadAssembly: UiPath.NeuralNet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:30:27.6029 => [ERROR] [UiPath.Studio.exe] [38] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:30:28.2395 => [ERROR] [UiPath.Studio.exe] [38] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:30:28.2395 => [ERROR] [UiPath.Studio.exe] [38] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:30:29.1090 => [ERROR] [UiPath.Studio.exe] [38] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:30:29.9864 => [ERROR] [UiPath.Studio.exe] [3] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:30:30.0080 => [ERROR] [UiPath.Studio.exe] [3] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:30:59.5706 => [ERROR] [UiPath.Studio.exe] [31] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:31:00.4952 => [ERROR] [UiPath.Studio.exe] [14] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:31:00.5082 => [ERROR] [UiPath.Studio.exe] [14] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:31:01.2613 => [ERROR] [UiPath.Studio.exe] [14] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:31:01.8894 => [ERROR] [UiPath.Studio.exe] [14] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:31:01.9277 => [ERROR] [UiPath.Studio.exe] [14] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:32:42.4749 => [ERROR] [UiPath.Studio.exe] [39] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:32:43.3195 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:32:43.3485 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:32:43.8335 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:32:44.2015 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:32:44.2335 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:32:58.9831 => [ERROR] [UiPath.Studio.exe] [1] Search: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.PackageExplorer.Core.Services.PackageExplorerService.<Search>d__4.MoveNext(), HResult -2146233029
+00:33:13.3317 => [ERROR] [UiPath.Studio.exe] [28] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+00:33:14.2632 => [ERROR] [UiPath.Studio.exe] [26] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:33:14.3038 => [ERROR] [UiPath.Studio.exe] [26] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:33:14.8338 => [ERROR] [UiPath.Studio.exe] [26] $LoadAssembly: UiPath.CV, Version=19.10.1.0, Culture=neutral, PublicKeyToken=null: System.IO.FileNotFoundException: Could not load file or assembly 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'Emgu.CV.World, Version=3.4.1.2984, Culture=neutral, PublicKeyToken=null'
+   at System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   at System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   at System.RuntimeType.get_DeclaringType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#gFc(Type #4Ub)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.<>c.#a1j(Type #gi)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:33:15.1068 => [ERROR] [UiPath.Studio.exe] [26] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:33:15.1738 => [ERROR] [UiPath.Studio.exe] [26] $LoadAssembly: Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimePropertyInfo.get_Signature()
+   at System.Reflection.RuntimePropertyInfo.get_PropertyType()
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#aFc(#Lrc #wAf, MemberInfo #xAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#cFc(#hsc #4Ub, Type #uAf)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#XEc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.BinaryAssemblyLoader.#iFc(Assembly #sxc)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#30j(Assembly #sxc, IAssemblyName #4tc, IBinaryAssemblyMetadata #RDb)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Create(Assembly assembly, IAssemblyName assemblyName, IBinaryAssemblyMetadata metadata)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.GetOrCreate(Assembly assembly, IAssemblyName assemblyName, String location)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.#uBh(Assembly #sxc, IAssemblyName #4tc, String #bVe)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(Assembly assembly, IAssemblyName assemblyName)
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.AssemblyRepositoryBase.Load(String fullName)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+, HResult -2147024894
+00:34:33.6672 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [3] Get Asset ProcessID: Could not find an asset with this name. Error code: 1002
+00:40:30.4465 => [WARN] [UiPath.Studio.exe] [1] XamlMigration: removed reference UiPath.Core
+00:40:30.4465 => [WARN] [UiPath.Studio.exe] [1] XamlMigration: removed reference UiPath.Core.Activities
+00:40:30.4465 => [WARN] [UiPath.Studio.exe] [1] XamlMigration: added reference UiPath.System.Activities
+00:40:30.4465 => [WARN] [UiPath.Studio.exe] [1] XamlMigration: added reference UiPath.UiAutomation.Activities
+00:40:32.0296 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [13] Open browser: Cannot communicate with Internet Explorer browser.
+00:41:02.3328 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [13] Open Amisys: Cannot communicate with Internet Explorer browser.
+00:41:35.4830 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [34] Workflow Body: Cannot communicate with Internet Explorer browser.
+00:47:29.5739 => [WARN] [UiPath.Studio.Shared.Logging.OutputLogger] [55] Begin navigate to AW0010 screen
+00:55:19.3598 => [WARN] [UiPath.Studio.exe] [29] XamlMigration: removed reference UiPath.Core
+00:55:19.3598 => [WARN] [UiPath.Studio.exe] [29] XamlMigration: removed reference UiPath.Framework.Activities
+00:55:19.3598 => [WARN] [UiPath.Studio.exe] [29] XamlMigration: added reference UiPath.System.Activities
+00:55:19.3598 => [WARN] [UiPath.Studio.exe] [29] XamlMigration: added reference UiPath.UiAutomation.Activities
+00:55:19.3598 => [WARN] [UiPath.Studio.exe] [29] XamlMigration: removed namespace UiPath.Framework.Activities
+00:55:19.3598 => [WARN] [UiPath.Studio.exe] [29] XamlMigration: added namespace UiPath.Core.Activities
+00:55:19.3799 => [WARN] [UiPath.Studio.exe] [17] XamlMigration: removed reference UiPath.Core
+00:55:19.3799 => [WARN] [UiPath.Studio.exe] [17] XamlMigration: removed reference UiPath.Core.Activities
+00:55:19.3799 => [WARN] [UiPath.Studio.exe] [17] XamlMigration: added reference UiPath.System.Activities
+00:55:19.3799 => [WARN] [UiPath.Studio.exe] [17] XamlMigration: added reference UiPath.UiAutomation.Activities
+00:55:19.5469 => [WARN] [UiPath.Studio.exe] [31] XamlMigration: removed reference UiPath.Core
+00:55:19.5479 => [WARN] [UiPath.Studio.exe] [31] XamlMigration: removed reference UiPath.Framework.Activities
+00:55:19.5479 => [WARN] [UiPath.Studio.exe] [31] XamlMigration: added reference UiPath.System.Activities
+00:55:19.5479 => [WARN] [UiPath.Studio.exe] [31] XamlMigration: added reference UiPath.UiAutomation.Activities
+00:55:19.5479 => [WARN] [UiPath.Studio.exe] [31] XamlMigration: removed namespace UiPath.Framework.Activities
+00:55:19.5479 => [WARN] [UiPath.Studio.exe] [31] XamlMigration: added namespace UiPath.Core.Activities

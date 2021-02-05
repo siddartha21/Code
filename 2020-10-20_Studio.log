@@ -1,0 +1,135 @@
+﻿01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling update online operation.
+01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving LicenseInfo.
+01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved LicenseInfo value RegistrationState: NoLicenseAvailable, ActivationId: , LicenseCode: [empty], LicenseModel: , Version: , StartDate: 0, EndDate: 0, GracePeriod: 0, Email: , CheckInterval: 0, NextCheckDate: 0, BundleCode: , SubscriptionCode: .
+01:10:57.3425 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+01:10:57.3505 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+01:10:57.3505 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+01:11:07.2939 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+01:11:07.2939 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling online update license request with current state :NoLicenseAvailable
+01:11:07.2939 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+01:11:07.2939 => [WARN] [UiPath.Studio.exe] [1] Warn: No license available skipping online update license request
+01:11:07.2939 => [ERROR] [UiPath.Studio.exe] [1] Error: No license exist for this installation Exception: UiPath.Licensing.Library.Extended.Exceptions.NotLicensedException: No license exist for this installation
+   at UiPath.Licensing.Library.Extended.Implementation.OnlineLoader.<UpdateAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.Library.Extended.Implementation.LicenseProvider.<UiPath-Licensing-Library-Extended-ILicenseProvider-UpdateOnlineLicenseAsync>d__11.MoveNext()
+01:11:07.2939 => [ERROR] [UiPath.Studio.exe] [1] Error: Error while updating license Exception: UiPath.Licensing.Library.Extended.Exceptions.NotLicensedException: No license exist for this installation
+   at UiPath.Licensing.Library.Extended.Implementation.OnlineLoader.<UpdateAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.Library.Extended.Implementation.LicenseProvider.<UiPath-Licensing-Library-Extended-ILicenseProvider-UpdateOnlineLicenseAsync>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Licensing.LicenseService.<UpdateOnlineLicenseAsync>d__24.MoveNext()
+01:11:08.0031 => [ERROR] [UiPath.Studio.exe] [11] System.NullReferenceException: Object reference not set to an instance of an object.
+   at UiPath.Studio.Orchestrator.Folders.Services.RefreshFoldersJobExecutor.ParseValueFieldInJson[T](String jsonData)
+   at UiPath.Studio.Orchestrator.Folders.Services.RefreshFoldersJobExecutor.<GetResources>d__13`1.MoveNext(), HResult -2147467261
+01:11:12.0432 => [WARN] [UiPath.Studio.Shared.Logging.OutputLogger] [15] NU1602: Twilio 3.6.18 does not provide an inclusive lower bound for dependency RestSharp. An approximate best match of RestSharp 100.3.0 was resolved.
+01:11:12.1141 => [WARN] [UiPath.Studio.Shared.Logging.OutputLogger] [15] NU1605: Detected package downgrade: UiPath.WebAPI.Activities from 1.4.4 to 1.4.3. Reference the package directly from the project to select a different version. 
+ FCC-PowerStepp-Moore Hospital Repricing Medicare Claims -> Xenon_Utilities 5.8.3 -> UiPath.WebAPI.Activities (>= 1.4.4) 
+ FCC-PowerStepp-Moore Hospital Repricing Medicare Claims -> UiPath.WebAPI.Activities (= 1.4.3)
+01:11:20.4964 => [ERROR] [UiPath.Studio.exe] [1] System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.FlushWrite(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.StreamWriter.Close()
+   at System.Xml.XmlTextWriter.Close()
+   at System.Xml.XmlDocument.Save(String filename)
+   at UiPath.Studio.Core.Services.SettingsService.Persist()
+01:11:20.7284 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: System.DataSetExtensions: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+01:11:20.9984 => [ERROR] [UiPath.Studio.exe] [10] $LoadAssembly: Microsoft.VisualBasic: System.ArgumentNullException: Value cannot be null.
+Parameter name: assembly
+   at ActiproSoftware.Text.Languages.DotNet.Reflection.Implementation.FileBasedAssemblyRepository.Add(IBinaryAssembly assembly)
+   at UiPath.Studio.Plugin.Workflow.ExpressionEditor.SyntaxService.LoadAssembly(LoadIntellisenseAssembliesContext context, String assemblyName, CancellationToken cancellationToken), HResult -2147467261
+01:21:28.5525 => [ERROR] [UiPath.Studio.exe] [1] System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.FlushWrite(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.StreamWriter.Close()
+   at System.Xml.XmlTextWriter.Close()
+   at System.Xml.XmlDocument.Save(String filename)
+   at UiPath.Studio.Core.Services.SettingsService.Persist()
+01:21:29.4696 => [ERROR] [UiPath.Studio.exe] [1] System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.FlushWrite(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.StreamWriter.Close()
+   at System.Xml.XmlTextWriter.Close()
+   at System.Xml.XmlDocument.Save(String filename)
+   at UiPath.Studio.Core.Services.SettingsService.Persist()
+01:21:36.2448 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+01:21:36.2448 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+01:21:36.2448 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+01:21:36.2448 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling update online operation.
+01:23:51.2895 => [WARN] [UiPath.Studio.exe] [10] XamlMigration: removed reference System.Runtime.WindowsRuntime
+03:03:50.2624 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [39] Login to AWD: Value does not fall within the expected range.
+03:03:56.1487 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [7] Launch AWD: Value does not fall within the expected range.
+03:03:58.2018 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [35] Main Sequence: Value does not fall within the expected range.
+03:04:04.7730 => [ERROR] [UiPath.Studio.exe] [1] System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.FlushWrite(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.StreamWriter.Close()
+   at System.Xml.XmlTextWriter.Close()
+   at System.Xml.XmlDocument.Save(String filename)
+   at UiPath.Studio.Core.Services.SettingsService.Persist()
+03:05:20.9554 => [ERROR] [UiPath.Studio.exe] [1] System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.FlushWrite(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.StreamWriter.Close()
+   at System.Xml.XmlTextWriter.Close()
+   at System.Xml.XmlDocument.Save(String filename)
+   at UiPath.Studio.Core.Services.SettingsService.Persist()
+03:09:11.7538 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [26] Click on Claims Processing: Cannot find the UI element corresponding to this selector: <webctrl parentid='Layer3' tag='A' />
+03:09:35.9808 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [10] Connect to AWD: Cannot find the UI element corresponding to this selector: <webctrl parentid='Layer3' tag='A' />
+03:09:55.2526 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [46] Message: Cannot find the UI element corresponding to this selector: <webctrl parentid='Layer3' tag='A' />
+03:09:59.0327 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [45] Sequence: Cannot find the UI element corresponding to this selector: <webctrl parentid='Layer3' tag='A' />
+03:10:01.5599 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [17] If: Cannot find the UI element corresponding to this selector: <webctrl parentid='Layer3' tag='A' />
+03:10:02.8969 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [45] Open browser: Cannot find the UI element corresponding to this selector: <webctrl parentid='Layer3' tag='A' />
+03:10:04.0669 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [46] Do While: Cannot find the UI element corresponding to this selector: <webctrl parentid='Layer3' tag='A' />
+03:10:21.5076 => [ERROR] [UiPath.Studio.exe] [1] System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.FlushWrite(Boolean calledFromFinalizer)
+   at System.IO.FileStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.StreamWriter.Close()
+   at System.Xml.XmlTextWriter.Close()
+   at System.Xml.XmlDocument.Save(String filename)
+   at UiPath.Studio.Core.Services.SettingsService.Persist()
+03:15:21.2164 => [WARN] [UiPath.Studio.Shared.Logging.OutputLogger] [45] End Get Next Claim
+03:15:21.3724 => [WARN] [UiPath.Studio.Shared.Logging.OutputLogger] [48] End Get Next Claim
+03:16:42.1670 => [ERROR] [UiPath.Studio.Shared.Logging.OutputLogger] [45] Attach AWD Page: Cannot find the UI element corresponding to this selector: <html htmlwindowname='ProcessorView' title='AWD' />

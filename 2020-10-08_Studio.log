@@ -1,0 +1,120 @@
+﻿10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling update online operation.
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving LicenseInfo.
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved LicenseInfo value RegistrationState: NoLicenseAvailable, ActivationId: , LicenseCode: [empty], LicenseModel: , Version: , StartDate: 0, EndDate: 0, GracePeriod: 0, Email: , CheckInterval: 0, NextCheckDate: 0, BundleCode: , SubscriptionCode: .
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+10:09:13.5285 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+10:09:13.7025 => [ERROR] [UiPath.Studio.exe] [1] Acquire orchestrator license error: RemoteException wrapping UiPath.Service.Orchestrator.Clients.OrchestratorHttpException: There are no available runtime licenses. 
+   at UiPath.Service.Orchestrator.OrchestratorClientExtensions.<EnsureOrchestratorStatusCodeAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Orchestrator.Clients.OrchestratorBaseClient.<InternalRequestAsync>d__6`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Orchestrator.Clients.OrchestratorBaseClient.<RequestAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Orchestrator.Clients.OrchestratorClient.<AcquireLicenseAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Licenses.LicenseManager.<AcquireRobotAndUpdate>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Impl.ExecutionManager.<OnAcquireLicensedRobot>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Messages.MessageDispatcher.<DispatchingTask>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Impl.RobotService.<LogInUser>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.Server.<InvokeMethod>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.Server.<HandleRequest>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.Server.<>c__DisplayClass3_2.<<-ctor>b__5>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.IOHelpers.<WithResult>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.IOHelpers.<WithTimeout>d__11`1.MoveNext()
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Handling update online operation.
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving LicenseInfo.
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved LicenseInfo value RegistrationState: NoLicenseAvailable, ActivationId: , LicenseCode: [empty], LicenseModel: , Version: , StartDate: 0, EndDate: 0, GracePeriod: 0, Email: , CheckInterval: 0, NextCheckDate: 0, BundleCode: , SubscriptionCode: .
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieving RegistrationState.
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Current license folder path: C:\ProgramData\UiPath\LicenseInternal
+10:09:21.0716 => [WARN] [UiPath.Studio.exe] [1] Warn: Retrieved RegistrationState value NoLicenseAvailable.
+10:09:21.1717 => [ERROR] [UiPath.Studio.exe] [1] Acquire orchestrator license error: RemoteException wrapping UiPath.Service.Orchestrator.Clients.OrchestratorHttpException: There are no available runtime licenses. 
+   at UiPath.Service.Orchestrator.OrchestratorClientExtensions.<EnsureOrchestratorStatusCodeAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Orchestrator.Clients.OrchestratorBaseClient.<InternalRequestAsync>d__6`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Orchestrator.Clients.OrchestratorBaseClient.<RequestAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Orchestrator.Clients.OrchestratorClient.<AcquireLicenseAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Licenses.LicenseManager.<AcquireRobotAndUpdate>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Impl.ExecutionManager.<OnAcquireLicensedRobot>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Messages.MessageDispatcher.<DispatchingTask>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Service.Impl.RobotService.<LogInUser>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.Server.<InvokeMethod>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.Server.<HandleRequest>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.Server.<>c__DisplayClass3_2.<<-ctor>b__5>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.IOHelpers.<WithResult>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at UiPath.Ipc.IOHelpers.<WithTimeout>d__11`1.MoveNext()

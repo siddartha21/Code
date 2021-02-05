@@ -1,0 +1,64 @@
+00:51:10.5914 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:51:10.6124 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:51:10.6614 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:51:10.6614 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:51:10.6614 warn BrokerService.ComputeMetadata raw text warning: no text
+00:52:17.2130 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:17.2350 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:17.2670 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:17.2710 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:17.2710 warn BrokerService.ComputeMetadata raw text warning: no text
+00:52:17.6160 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:17.6160 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:17.6460 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:17.6460 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:17.6460 warn BrokerService.ComputeMetadata raw text warning: no text
+00:52:17.9620 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:17.9620 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:18.0030 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:18.0040 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:18.0040 warn BrokerService.ComputeMetadata raw text warning: no text
+00:52:21.5852 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:21.5852 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:21.6222 warn EhllapiWrapper.CallEhllApi(8) returned 2
+00:52:21.6222 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+00:52:21.6222 warn BrokerService.ComputeMetadata raw text warning: no text
+00:52:57.3216 warn EhllapiWrapper.CallEhllApi(1) returned 11
+00:52:57.3426 error EhllBridge.Attach error : ResourceNotAvailable
+00:52:57.3426 error System.Exception: Error attaching to session
+   at UiPath.Terminal.Generic.EHLLApi.EhllTerminal.InitializeEhll(ConnectionData connectionData)
+00:52:57.3426 error    at UiPath.Terminal.Generic.EHLLApi.EhllTerminal.InitializeEhll(ConnectionData connectionData)
+00:52:57.3426 warn EhllapiWrapper.CallEhllApi(2) returned 1
+00:52:57.3426 error EhllBridge.Detach error : NotConnected
+01:40:24.0977 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:40:24.1177 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:40:24.1857 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:40:24.1857 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:40:24.1857 warn BrokerService.ComputeMetadata raw text warning: no text
+01:41:31.7011 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:31.7231 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:31.7771 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:31.7771 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:31.7771 warn BrokerService.ComputeMetadata raw text warning: no text
+01:41:32.1401 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:32.1401 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:32.2181 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:32.2181 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:32.2181 warn BrokerService.ComputeMetadata raw text warning: no text
+01:41:32.5421 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:32.5421 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:32.6041 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:32.6041 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:32.6041 warn BrokerService.ComputeMetadata raw text warning: no text
+01:41:36.1953 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:36.1953 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:36.2273 warn EhllapiWrapper.CallEhllApi(8) returned 2
+01:41:36.2273 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+01:41:36.2273 warn BrokerService.ComputeMetadata raw text warning: no text
+01:42:12.8585 warn EhllapiWrapper.CallEhllApi(1) returned 11
+01:42:12.8785 error EhllBridge.Attach error : ResourceNotAvailable
+01:42:12.8785 error System.Exception: Error attaching to session
+   at UiPath.Terminal.Generic.EHLLApi.EhllTerminal.InitializeEhll(ConnectionData connectionData)
+01:42:12.8785 error    at UiPath.Terminal.Generic.EHLLApi.EhllTerminal.InitializeEhll(ConnectionData connectionData)
+01:42:12.8835 warn EhllapiWrapper.CallEhllApi(2) returned 1
+01:42:12.8835 error EhllBridge.Detach error : NotConnected

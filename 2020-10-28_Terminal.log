@@ -1,0 +1,5 @@
+18:32:29.6462 warn EhllapiWrapper.CallEhllApi(8) returned 2
+18:32:29.6920 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+18:32:29.8326 warn EhllapiWrapper.CallEhllApi(8) returned 2
+18:32:29.8326 error EhllBridge.InternalGetScreenText error reading screen : ParameterError
+18:32:29.8483 warn BrokerService.ComputeMetadata raw text warning: no text
